@@ -4,14 +4,19 @@ function factorial(z){
         result=result*i
     }
     return result;
+
+    
 }
-let resultotal=factorial(1)
+let resultotal=factorial(12)
 
 console.log(resultotal)
 
-if(resultotal%2==0){
-    console.log("even")
+function oddeven(resultotal){
+    if(resultotal%2==0){
+        console.log(resultotal + " is even")
+    }
+    else{
+        console.log(resultotal + " is odd")
+    }
 }
-else{
-    console.log("odd")
-}
+oddeven(resultotal)
