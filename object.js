@@ -1,6 +1,6 @@
 
 
-let player={
+let playerA={
     name : "leonel Messi",
     matches : 2300,
     ishewonWorldcup: true,
@@ -8,5 +8,12 @@ let player={
     assist: 1200,
     ballondor: 8
 }
-player.ballondor=9
-console.log(player)
+let playerB={
+    name : "Rolando",
+    matches : "2400",
+    ishewonWorldcup : "moye moye",
+    goals : 890,
+    assist : 399,
+    ballondor: 5
+}
+console.log(Object.values(playerA),Object.values(playerB))
